@@ -1,0 +1,21 @@
+body { background: #fff8f0; }
+.navbar-receitas { background: #b30000; }
+.titulo-pagina { font-weight: 700; color: #3a3a3a; }
+
+/* cards da home */
+.card-receita { border: 0; border-radius: 14px; overflow: hidden; transition: transform .2s, box-shadow .2s; }
+.card-receita:hover { transform: translateY(-6px); box-shadow: 0 10px 24px rgba(0,0,0,.18); }
+.card-receita img { height: 210px; object-fit: cover; background: #e9d8c8; }
+.btn-abrir { background: #b30000; color: #fff; border-radius: 20px; padding: 6px 28px; }
+.btn-abrir:hover { background: #8a0000; color: #fff; }
+
+/* página da receita */
+.foto-receita { width: 100%; max-height: 420px; object-fit: cover; border-radius: 14px; background: #e9d8c8; }
+.info-receita { background: #fff; border-radius: 12px; padding: 14px 18px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.secao-titulo { font-weight: 700; color: #b30000; border-bottom: 2px solid #b30000; padding-bottom: 4px; margin-bottom: 14px; }
+.passo { display: flex; gap: 12px; margin-bottom: 14px; }
+.passo .num { font-size: 1.6rem; font-weight: 700; color: #0d9bd6; line-height: 1; }
+.dificuldade span { display: inline-block; width: 18px; height: 18px; border: 2px solid #3a3a3a; margin-right: 3px; }
+.dificuldade span.cheio { background: #3a3a3a; }
+.comentario { background: #fff; border-left: 4px solid #b30000; border-radius: 8px; padding: 10px 14px; margin-bottom: 10px; }
+footer { color: #777; }
